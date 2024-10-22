@@ -1,12 +1,3 @@
-.perspective-text{
-  color: rgb(255,255,0);
-  font-size: 60px;
-  letter-spacing: 3px;
-  justify-content: space-evenly;
-  transform: translate(40px,310px) skew(-50deg,0deg); 
-  position: absolute;
-  margin: 160px;
-}
 
 p{
   margin:0;
