@@ -1,0 +1,23 @@
+.perspective-text{
+  colour: "yellow";
+  font-size: 60px;
+  letter-spacing: 3px;
+  justify-content: space-evenly;
+  transform: translate(70px,300px) skew(-40deg,0deg);
+  position: absolute;
+  margin: 160px;
+}
+
+p{
+  margin:0;
+}
+
+.button{
+  position:absolute;
+  transform: translate(1090px,320px);
+}
+
+.cable{
+  position:absolute;
+  transform: translate(572px,234px) scale(1.95,1.8);
+}
