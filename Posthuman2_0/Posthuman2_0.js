@@ -1,4 +1,3 @@
-let roboto;
 let trainTrack1 = 0;
 let trainTrack2 = -20;
 let cable2;
@@ -70,7 +69,6 @@ image(cable2,0,0);
 
 push();
 translate(width*0.1,height/4);
-textSize(130);
 fill(255, 207, 102);
 
 
