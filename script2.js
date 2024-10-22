@@ -1,4 +1,3 @@
-let roboto;
 let trainTrack1 = 0;
 let trainTrack2 = -20;
 let cable2;
