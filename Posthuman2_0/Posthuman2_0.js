@@ -14,18 +14,6 @@ createCanvas(windowWidth,windowHeight);
 getAudioContext().suspend();
 }
 
-function mouseMoved () {
-  //if (getAudioContext().state !== 'running') {
-  //  getAudioContext().resume();
-  //  song.play();
-  //  song.loop();
-  //}
-    if (mouseX > 1) {
-    getAudioContext().resume();
-    song.play();
-    song.loop();
-  }
-}
 
 function draw() {
   background(0);
