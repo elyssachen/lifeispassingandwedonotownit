@@ -84,13 +84,6 @@ vertex(650,82);
 endShape();
 pop();
 
-//red button
-//push();
-//noStroke();
-//fill(255,0,0);
-//ellipse(650,255,28,10);
-//pop();
-
 
 push();
 noFill();
