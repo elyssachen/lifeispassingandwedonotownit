@@ -17,7 +17,6 @@ createCanvas(windowWidth,windowHeight);
 function draw() {
   background(0);
   stroke(255);
-//noFill();
 
 line(200,440,800,440);
 line(200,400,800,400);
@@ -50,7 +49,7 @@ strokeWeight(1);
   //COPILOT ENDS
   pop();
   
-
+//used black shapes to cover the offset lines
 push();
 noStroke();
 rect(148,100,700,290);
@@ -61,11 +60,6 @@ triangle(683,439,668,456,683,458);
 triangle(292,440,309,456,283,458);
 pop();
 
-//vertex(650,320);
-//vertex(670,300);
-//vertex(670,102);
-//vertex(650,82)
-
 image(cable2,0,0);
 
 push();
@@ -73,17 +67,17 @@ translate(width*0.1,height/4);
 textSize(130);
 fill(255, 207, 102);
 
-
-//push();
-//fill(255, 229, 99);
-//noStroke();
-//drawingContext.shadowBlur=40;
-//drawingContext.shadowColor=color(255, 229, 99);
-//circle(340,130,50);
-//pop();
-
-//fill(111, 128, 189);
-//rect(148,200,390,62);
+//was considering making a sunrise instead of traintracks: 
+  //push();
+  //fill(255, 229, 99);
+  //noStroke();
+  //drawingContext.shadowBlur=40;
+  //drawingContext.shadowColor=color(255, 229, 99);
+  //circle(340,130,50);
+  //pop();
+  
+  //fill(111, 128, 189);
+  //rect(148,200,390,62);
 
 noFill();
 scale(0.85);
